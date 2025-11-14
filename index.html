@@ -1,112 +1,310 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Free Fortnite V-Bucks</title>
-  <style>
-    /* Reset */
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-      font-family: 'Arial', sans-serif;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get FREE Roblox Items & Rare Skins - Claim Now!</title>
+    <meta name="description" content="Claim free Roblox items and rare skins instantly. No hacks, no downloads. Safe and easy for all Roblox players.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-    body {
-      background: linear-gradient(135deg, #5b2ebc, #8c4ef4);
-      color: #fff;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-      padding: 20px;
-    }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #fff;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
 
-    .container {
-      max-width: 500px;
-      width: 100%;
-      background: rgba(0, 0, 0, 0.5);
-      padding: 20px;
-      border-radius: 20px;
-      text-align: center;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-    }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
 
-    h1 {
-      font-size: 1.8rem;
-      margin-bottom: 15px;
-    }
+        header {
+            text-align: center;
+            padding: 30px 0 20px;
+            animation: fadeInDown 0.8s ease-out;
+        }
 
-    h2 {
-      font-size: 1rem;
-      margin-bottom: 20px;
-      font-weight: normal;
-    }
+        h1 {
+            font-size: clamp(24px, 6vw, 36px);
+            font-weight: 800;
+            margin-bottom: 15px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            line-height: 1.2;
+        }
 
-    img {
-      width: 100%;
-      border-radius: 15px;
-      margin-bottom: 20px;
-    }
+        .highlight {
+            color: #ffd700;
+            display: inline-block;
+            animation: pulse 2s ease-in-out infinite;
+        }
 
-    iframe {
-      width: 100%;
-      height: 250px;
-      border: none;
-      border-radius: 15px;
-      margin-bottom: 20px;
-    }
+        .subheadline {
+            font-size: clamp(16px, 4vw, 20px);
+            color: #e0e7ff;
+            margin-bottom: 25px;
+            font-weight: 400;
+        }
 
-    .cta {
-      margin-bottom: 10px;
-    }
+        .hero-image {
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+            margin: 20px auto;
+            display: block;
+            animation: fadeIn 1s ease-out;
+        }
 
-    .cta a {
-      display: inline-block;
-      padding: 15px 25px;
-      background: #ff004c;
-      color: #fff;
-      font-size: 1rem;
-      border-radius: 10px;
-      text-decoration: none;
-      transition: 0.3s;
-    }
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+            margin: 30px 0;
+            background: #000;
+        }
 
-    .cta a:hover {
-      background: #ff3366;
-    }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
 
-    footer {
-      margin-top: 15px;
-      font-size: 0.8rem;
-      opacity: 0.8;
-    }
+        .proof-badge {
+            text-align: center;
+            margin: 20px 0 10px;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #ffd700;
+            font-weight: 600;
+        }
 
-    @media (max-width: 600px) {
-      h1 {
-        font-size: 1.5rem;
-      }
-      iframe {
-        height: 200px;
-      }
-    }
-  </style>
+        .cta-section {
+            text-align: center;
+            margin: 40px 0;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(135deg, #ffd700 0%, #ffed4e 100%);
+            color: #333;
+            font-size: clamp(18px, 4.5vw, 24px);
+            font-weight: 800;
+            padding: 18px 40px;
+            border-radius: 50px;
+            text-decoration: none;
+            box-shadow: 0 8px 25px rgba(255, 215, 0, 0.4);
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border: 3px solid #fff;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 35px rgba(255, 215, 0, 0.6);
+        }
+
+        .cta-button:active {
+            transform: translateY(-1px);
+        }
+
+        .features {
+            display: grid;
+            gap: 15px;
+            margin: 40px 0;
+        }
+
+        .feature {
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(10px);
+            padding: 20px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+
+        .feature-icon {
+            font-size: 32px;
+            flex-shrink: 0;
+        }
+
+        .feature-text h3 {
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+
+        .feature-text p {
+            font-size: 14px;
+            color: #e0e7ff;
+        }
+
+        .trust-badges {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin: 30px 0;
+        }
+
+        .badge {
+            background: rgba(255,255,255,0.15);
+            padding: 10px 20px;
+            border-radius: 25px;
+            font-size: 13px;
+            font-weight: 600;
+            border: 1px solid rgba(255,255,255,0.3);
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px 0;
+            font-size: 13px;
+            color: #e0e7ff;
+            border-top: 1px solid rgba(255,255,255,0.2);
+            margin-top: 40px;
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.05);
+            }
+        }
+
+        .urgent-notice {
+            background: rgba(255,0,0,0.2);
+            border: 2px solid #ff4444;
+            border-radius: 12px;
+            padding: 15px;
+            margin: 20px 0;
+            text-align: center;
+            font-weight: 600;
+        }
+    </style>
 </head>
 <body>
-  <div class="container">
-    <h1>🎮 Get FREE V-Bucks and Rare Skins Instantly – Fortnite Players Only! 🎉</h1>
-    <h2>✨ No hacks, no downloads. Complete one simple step and claim your rewards safely! ✨</h2>
+    <div class="container">
+        <header>
+            <h1>Get <span class="highlight">FREE Items</span> and Rare Skins Instantly – Roblox Players Only!</h1>
+            <p class="subheadline">No hacks, no downloads. Complete one simple step and claim your rewards safely!</p>
+        </header>
 
-    <img src="https://cdn.gamekult.com/images/gallery/81/81019/fortnite-pc-ps4-xone-and-switch-ps5-xbox-x-s-acaa1323.jpg" alt="Fortnite">
+        <img src="https://www.pixelstalk.net/wp-content/uploads/images5/Cool-Roblox-Wallpaper-HD.jpg" alt="Roblox Items" class="hero-image">
 
-    <iframe src="https://www.youtube.com/embed/s6HOs5-u3ZI" title="Fortnite Video Proof" allowfullscreen></iframe>
+        <div class="urgent-notice">
+            ⏰ Limited Time Offer - Claim Before It's Too Late!
+        </div>
 
-    <div class="cta">
-      <a href="https://redirectapps.org/cl/i/m5ekew" target="_blank">GET YOUR CODE NOW 🚀</a>
+        <div class="cta-section">
+            <a href="https://lockedapp.org/cl/i/m5ekew" class="cta-button">🎁 Claim Your Rewards Now</a>
+        </div>
+
+        <div class="proof-badge">👇 Watch Real Players Claim Their Rewards 👇</div>
+        
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/gGlaPQzUM8Q" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+        </div>
+
+        <div class="features">
+            <div class="feature">
+                <div class="feature-icon">✅</div>
+                <div class="feature-text">
+                    <h3>100% Safe & Secure</h3>
+                    <p>No account bans, no risks. Completely safe method approved by thousands of players.</p>
+                </div>
+            </div>
+            
+            <div class="feature">
+                <div class="feature-icon">⚡</div>
+                <div class="feature-text">
+                    <h3>Instant Delivery</h3>
+                    <p>Receive your items immediately after completing one simple step. No waiting time!</p>
+                </div>
+            </div>
+            
+            <div class="feature">
+                <div class="feature-icon">🎮</div>
+                <div class="feature-text">
+                    <h3>Exclusive Rare Skins</h3>
+                    <p>Access limited edition items and rare skins that others can only dream of!</p>
+                </div>
+            </div>
+            
+            <div class="feature">
+                <div class="feature-icon">🔒</div>
+                <div class="feature-text">
+                    <h3>No Downloads Required</h3>
+                    <p>Everything happens online. No suspicious software or apps to install.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="trust-badges">
+            <div class="badge">🛡️ Verified Safe</div>
+            <div class="badge">⭐ 50K+ Happy Players</div>
+            <div class="badge">🔥 Trending Now</div>
+        </div>
+
+        <div class="cta-section">
+            <a href="https://lockedapp.org/cl/i/m5ekew" class="cta-button">🚀 Get Started - It's FREE!</a>
+        </div>
+
+        <footer>
+            <p>© 2024 Roblox Rewards. Not affiliated with Roblox Corporation.</p>
+            <p style="margin-top: 10px; font-size: 12px;">By claiming, you agree to receive promotional emails.</p>
+        </footer>
     </div>
-
-    <footer>✅ Safe & Legal – Join thousands of Fortnite players in the USA!</footer>
-  </div>
 </body>
 </html>
